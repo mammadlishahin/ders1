@@ -1,0 +1,68 @@
+:root{
+    --primapy-color: #72adff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family:sans-serif;
+}
+
+.big-container {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: rgb(15, 35, 101);
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 1rem 0;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+}
+.navbar-url{
+    list-style-type:none;
+    width: 60%;
+}
+.navbar-url li{
+    display:inline-block;
+}
+.navbar-url li a{
+    text-decoration:none;
+    color:white;
+    padding:0.8rem 0.6rem;
+}
+.entrance a{
+    color:white;
+    text-decoration: none;
+    padding:0.8rem 0.6rem;
+}
+
+/* nav End */
+.small-welcome{
+    text-decoration: none;
+    color:var(--primapy-color)
+}
+h1{
+    color: white;
+    line-height: 3.5rem;
+}
+.center-text{
+    padding-top: 1rem;
+    color: white;
+    line-height: 1.8rem;
+}
+.center-btn{}
