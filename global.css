@@ -18,3 +18,18 @@
     color: var(--primapy-color);
 
 }
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.text-secondary{
+    color:var(--secondary-color);
+}
+.text-primary{
+    color: var(--primapy-color);;
+}
